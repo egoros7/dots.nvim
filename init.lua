@@ -13,3 +13,6 @@ require('config.hotkeys')
 require('lsp.lua') -- Lua LSP
 require('lsp.cpp') -- C++ LSP
 require('lsp.completion') -- Snippets and completion
+
+-- Launch startup.nvim --
+require("startup").setup()
