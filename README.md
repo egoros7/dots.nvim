@@ -36,6 +36,8 @@ autopairs [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 
 view diffs [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
 
+nvim-colorizer [norcalli/nvim-colorizer](https://github.com/norcalli/nvim-colorizer)
+
 cmp-nvim plugins
 
 [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
