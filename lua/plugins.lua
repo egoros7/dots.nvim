@@ -4,7 +4,10 @@ return require('packer').startup(function(use)
 	use 'neovim/nvim-lspconfig' -- LSP
 	use 'xiyaowong/transparent.nvim' -- Transparent background for blur
 	use 'andweeb/presence.nvim' -- Discord
-	use 'nvim-telescope/telescope.nvim' -- Cool file search
+	use {
+		'nvim-telescope/telescope.nvim',
+		requires = { {'nvim-lua/plenary.nvim'} }
+	} -- Cool file search
 
 	require("presence").setup({
 		auto_update         = true,                      
