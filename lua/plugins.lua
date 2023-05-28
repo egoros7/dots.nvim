@@ -4,10 +4,16 @@ return require('packer').startup(function(use)
 	use 'neovim/nvim-lspconfig' -- LSP
 	use 'xiyaowong/transparent.nvim' -- Transparent background for blur
 	use 'andweeb/presence.nvim' -- Discord
-	use {
+	use
+	{
 		'nvim-telescope/telescope.nvim',
-		requires = { {'nvim-lua/plenary.nvim'} }
-	} -- Cool file search
+		requires = { {'nvim-lua/plenary.nvim'} } -- Telescope
+	}
+	use
+	{
+		'nvim-treesitter/nvim-treesitter', -- Treesitter
+        run = ':TSUpdate'
+    }
 
 	require("presence").setup({
 		auto_update         = true,                      
