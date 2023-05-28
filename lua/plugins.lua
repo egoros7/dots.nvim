@@ -7,6 +7,47 @@ return require('packer').startup(function(use)
 	use 'aveplen/ruscmd.nvim' -- Thing for russians :3
 	use 'sindrets/diffview.nvim' -- Diff
 	use 'fedepujol/move.nvim' -- Move lines
+	use 'simrat39/symbols-outline.nvim' -- Tree for symbols
+	use
+	{
+		"folke/todo-comments.nvim",
+		requires = "nvim-lua/plenary.nvim"
+	}
+	use
+	{
+		"SmiteshP/nvim-navic",
+		requires = "neovim/nvim-lspconfig"
+	}
+	use
+	{
+		'rmagatti/goto-preview',
+		config = function()
+			require('goto-preview').setup{}
+		end
+	}
+	use
+	{
+		"utilyre/barbecue.nvim",
+		tag = "*",
+		requires = {
+			"SmiteshP/nvim-navic",
+			"nvim-tree/nvim-web-devicons", -- optional dependency
+		},
+		after = "nvim-web-devicons", -- keep this if you're using NvChad
+		config = function()
+			require("barbecue").setup()
+		end,
+	}
+	use
+	{
+		"lukas-reineke/indent-blankline.nvim",
+		config = function() require("indent_blankline").setup
+		{
+			show_current_context = true,
+			show_current_context_start = true,
+			show_end_of_line=true
+		}end
+	}
 	use
 	{
 		'norcalli/nvim-colorizer.lua',

@@ -38,6 +38,18 @@ view diffs [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
 
 nvim-colorizer [norcalli/nvim-colorizer](https://github.com/norcalli/nvim-colorizer)
 
+cool tree [simrat39/symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim)
+
+todo thing [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
+
+preview thing [rmagatti/goto-preview](https://github.com/rmagatti/goto-preview)
+
+nvim-navic [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic)
+
+bbq [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim)
+
+indent [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+
 cmp-nvim plugins
 
 [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
