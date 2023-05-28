@@ -14,6 +14,8 @@ aveplen/ruscmd.nvim
 nvim-telescope/telescope.nvim
 nvim-lua/plenary.nvim
 
+startup-nvim/startup.nvim
+
 nvim-treesitter/nvim-treesitter
 
 nvim-lualine/lualine.nvim

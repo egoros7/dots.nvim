@@ -25,6 +25,12 @@ return require('packer').startup(function(use)
 		'nvim-tree/nvim-tree.lua',
 		requires = { {'nvim-tree/nvim-web-devicons'} }
 	}
+	use
+	{
+		"startup-nvim/startup.nvim",
+		requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+	}
+
 	use 'windwp/nvim-autopairs' -- Autopairs
 	use 'sindrets/diffview.nvim' -- Diff
 
