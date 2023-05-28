@@ -5,7 +5,7 @@ return require('lspconfig').clangd.setup
 	end,
 	cmd = {
 		"clangd",
-		--"--query-driver=C:/Program Files/LLVM/bin/clang.exe"	
+		"--query-driver=/Users/Erop/scoop/apps/mingw-winlibs-llvm/12.2.0-15.0.7-10.0.0-r4/bin/clang.exe"
 	},
 	filetypes = {"c", "cpp", "objc", "objcpp"},
 	capabilities = capabilities
