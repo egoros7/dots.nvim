@@ -1,38 +1,53 @@
 # dots.nvim
 
-My Neovim config
+my neovim config
 
-Plugins used:
-```
-wbthomason/packer.nvim
-ellisonleao/gruvbox.nvim
-neovim/nvim-lspconfig
-xiyaowong/transparent.nvim
-andweeb/presence.nvim
-aveplen/ruscmd.nvim
+plugins used:
 
-nvim-telescope/telescope.nvim
-nvim-lua/plenary.nvim
+plugin manager [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
 
-startup-nvim/startup.nvim
+theme [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim)
 
-nvim-treesitter/nvim-treesitter
+LSP [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 
-nvim-lualine/lualine.nvim
+transparent background [xiyaowong/transparent.nvim](https://github.com/xiyaowong/transparent.nvim)
 
-nvim-tree/nvim-tree.lua
-nvim-tree/nvim-web-devicons
+discord presence :3 [andweeb/presence.nvim](https://github.com/andweeb/presence.nvim)
 
-windwp/nvim-autopairs
-sindrets/diffview.nvim
+neovim hotkeys for russian layout [aveplen/ruscmd.nvim](https://github.com/aveplen/ruscmd.nvim)
 
-hrsh7th/cmp-nvim-lsp
-hrsh7th/cmp-buffer
-hrsh7th/cmp-path
-hrsh7th/cmp-cmdline
-hrsh7th/nvim-cmp
+telescope [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
-L3MON4D3/LuaSnip
-saadparwaiz1/cmp_luasnip
+plenary [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 
-```
+startup: [startup-nvim/startup.nvim](https://github.com/startup-nvim/startup.nvim)
+
+treesitter: [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+
+lualine [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+
+nvim-tree [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+
+nvim-tree and lualine icons: [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+
+autopairs [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+
+view diffs [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
+
+cmp-nvim plugins
+
+[hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+
+[hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
+
+[hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path)
+
+[hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
+
+[hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+
+luasnip
+
+[L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+
+[saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
