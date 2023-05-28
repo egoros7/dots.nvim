@@ -37,15 +37,8 @@ return require('packer').startup(function(use)
 	--= Setup =--
 	
 	-- ruscmd --
-	require('ruscmd').setup{
-		-- provide ex-command abbreviation
-		-- example: ':й' -> ':q'
-		abbreviations = true -- default true
+	require('ruscmd').setup{}
 
-		-- provide NORMAL-mode translation
-		-- example: 'ц' -> 'w'
-		keymaps = true -- default true
-	}
 	-- nvim-tree --
 	-- disable netrw at the very start of your init.lua
 	vim.g.loaded_netrw = 1
