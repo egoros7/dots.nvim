@@ -11,3 +11,4 @@ require('config.hotkeys')
 
 -- LSP --
 require('lsp.cpp') -- C++ LSP
+require('lsp.completion') -- Snippets and completion
