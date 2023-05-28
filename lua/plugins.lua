@@ -14,7 +14,23 @@ return require('packer').startup(function(use)
 		'nvim-treesitter/nvim-treesitter', -- Treesitter
         run = ':TSUpdate'
     }
+	use 'windwp/nvim-autopairs' -- Autopairs
+	use 'sindrets/diffview.nvim' -- Diff
 
+	-- Completion --
+	use 'hrsh7th/cmp-nvim-lsp'
+	use 'hrsh7th/cmp-buffer'
+	use 'hrsh7th/cmp-path'
+	use 'hrsh7th/cmp-cmdline'
+	use 'hrsh7th/nvim-cmp'
+
+	-- LuaSnip --
+	use 'L3MON4D3/LuaSnip'
+	use 'saadparwaiz1/cmp_luasnip'
+
+	-- nvim-cmp Settings --
+	
+	-- Discord Presence Settings --
 	require("presence").setup({
 		auto_update         = true,                      
 		neovim_image_text   = ":3", -- :3
