@@ -4,6 +4,7 @@ return require('packer').startup(function(use)
 	use 'neovim/nvim-lspconfig' -- LSP
 	use 'xiyaowong/transparent.nvim' -- Transparent background for blur
 	use 'andweeb/presence.nvim' -- Discord
+	use 'aveplen/ruscmd.nvim' -- Thing for russians :3
 	use
 	{
 		'nvim-telescope/telescope.nvim',
@@ -35,6 +36,16 @@ return require('packer').startup(function(use)
 
 	--= Setup =--
 	
+	-- ruscmd --
+	require('ruscmd').setup{
+		-- provide ex-command abbreviation
+		-- example: ':й' -> ':q'
+		abbreviations = true -- default true
+
+		-- provide NORMAL-mode translation
+		-- example: 'ц' -> 'w'
+		keymaps = true -- default true
+	}
 	-- nvim-tree --
 	-- disable netrw at the very start of your init.lua
 	vim.g.loaded_netrw = 1
