@@ -20,7 +20,9 @@ telescope [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/tele
 
 plenary [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 
-startup: [startup-nvim/startup.nvim](https://github.com/startup-nvim/startup.nvim)
+startup [startup-nvim/startup.nvim](https://github.com/startup-nvim/startup.nvim)
+
+move lines [fedepujol/move.nvim](https://github.com/fedepujol/move.nvim)
 
 treesitter: [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 

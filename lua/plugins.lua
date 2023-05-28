@@ -6,6 +6,7 @@ return require('packer').startup(function(use)
 	use 'andweeb/presence.nvim' -- Discord
 	use 'aveplen/ruscmd.nvim' -- Thing for russians :3
 	use 'sindrets/diffview.nvim' -- Diff
+	use 'fedepujol/move.nvim'
 	use
 	{
 		'nvim-telescope/telescope.nvim',
