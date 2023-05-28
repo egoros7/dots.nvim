@@ -10,5 +10,6 @@ require('config.settings')
 require('config.hotkeys')
 
 -- LSP --
+require('lsp.lua') -- Lua LSP
 require('lsp.cpp') -- C++ LSP
 require('lsp.completion') -- Snippets and completion
