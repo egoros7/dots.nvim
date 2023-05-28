@@ -16,6 +16,8 @@ nvim-lua/plenary.nvim
 
 nvim-treesitter/nvim-treesitter
 
+nvim-lualine/lualine.nvim
+
 nvim-tree/nvim-tree.lua
 nvim-tree/nvim-web-devicons
 
