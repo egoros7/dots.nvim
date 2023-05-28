@@ -5,6 +5,7 @@ return require('packer').startup(function(use)
 	use 'xiyaowong/transparent.nvim' -- Transparent background for blur
 	use 'andweeb/presence.nvim' -- Discord
 	use 'aveplen/ruscmd.nvim' -- Thing for russians :3
+	use 'sindrets/diffview.nvim' -- Diff
 	use
 	{
 		'nvim-telescope/telescope.nvim',
@@ -30,9 +31,11 @@ return require('packer').startup(function(use)
 		"startup-nvim/startup.nvim",
 		requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
 	}
-
-	use 'windwp/nvim-autopairs' -- Autopairs
-	use 'sindrets/diffview.nvim' -- Diff
+	use
+	{
+		"windwp/nvim-autopair",
+		config = function() require("nvim-autopairs").setup {} end
+	}
 
 	-- Completion --
 	use 'hrsh7th/cmp-nvim-lsp'
