@@ -1,13 +1,14 @@
 return require('packer').startup(function(use)
-	use 'wbthomason/packer.nvim'
-	use 'ellisonleao/gruvbox.nvim'
-	use 'neovim/nvim-lspconfig'
-	use 'xiyaowong/transparent.nvim'
-	use 'andweeb/presence.nvim'
+	use 'wbthomason/packer.nvim' -- Plugin manager
+	use 'ellisonleao/gruvbox.nvim' -- My theme
+	use 'neovim/nvim-lspconfig' -- LSP
+	use 'xiyaowong/transparent.nvim' -- Transparent background for blur
+	use 'andweeb/presence.nvim' -- Discord
+	use 'nvim-telescope/telescope.nvim' -- Cool file search
 
 	require("presence").setup({
 		auto_update         = true,                      
-		neovim_image_text   = "The One True Text Editor :3", 
+		neovim_image_text   = ":3", -- :3
 		main_image          = "neovim",
 		log_level           = nil,
 		debounce_timeout    = 10,
@@ -18,11 +19,11 @@ return require('packer').startup(function(use)
 		show_time           = true,
 
 		-- Rich Presence text options
-		editing_text        = "Bwoating %s :3",
-		file_explorer_text  = "Bwowsing fow :3 fuwwy pown in %s",
-		git_commit_text     = "Committing fuwwy porn",
-		plugin_manager_text = "Managing fuwwy pown :3",
-		reading_text        = "Weading %s :3",
-		workspace_text      = "Wowking on %s :3",
+		editing_text        = "editing %s",
+		file_explorer_text  = "browsing %s",
+		git_commit_text     = "doing a commit %s",
+		plugin_manager_text = "managing plugins",
+		reading_text        = "reading %s",
+		workspace_text      = "working in %s",
 	})
 end)

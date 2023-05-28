@@ -1,7 +1,13 @@
+-- Packer --
 require('plugins')
 
+-- Theme --
 vim.o.background = 'dark'
 vim.cmd([[colorscheme gruvbox]])
 
-require('config')
-require('lsp')
+-- Hotkeys and General Settings --
+require('config.settings')
+require('config.hotkeys')
+
+-- LSP --
+require('lsp.cpp') -- C++ LSP
