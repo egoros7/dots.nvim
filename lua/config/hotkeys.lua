@@ -23,5 +23,8 @@ vim.keymap.set('v', '<A-l>', ':MoveHBlock(1)<CR>', opts)
 -- nvim-tree --
 vim.keymap.set('n', '<leader>tr', ':NvimTreeToggle', opts)
 
+-- Toggle transparent background --
+vim.keymap.set('n', '<A-p>', ':TransparentToggle', opts) -- Alt+P
+
 -- goto-preview --
 --vim.keymap.set()
