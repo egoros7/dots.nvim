@@ -3,7 +3,7 @@ require('plugins')
 
 -- Theme --
 vim.o.background = 'dark'
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme github_dark_high_contrast]])
 
 -- Hotkeys and General Settings --
 require('config.settings')
