@@ -140,7 +140,7 @@ return require('packer').startup(function(use)
 	{
 		options = {
 			icons_enabled = true,
-			theme = 'gruvbox_dark',
+			theme = 'nightfly',
 			component_separators = { left = '', right = ''},
 			section_separators = { left = '', right = ''},
 			disabled_filetypes = {
