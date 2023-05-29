@@ -1,6 +1,7 @@
 return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim' -- Plugin manager
 	use 'ellisonleao/gruvbox.nvim' -- My theme
+	use 'projekt0n/github-nvim-theme' -- Another theme
 	use 'neovim/nvim-lspconfig' -- LSP
 	use 'xiyaowong/transparent.nvim' -- Transparent background for blur
 	use 'andweeb/presence.nvim' -- Discord
@@ -8,6 +9,7 @@ return require('packer').startup(function(use)
 	use 'sindrets/diffview.nvim' -- Diff
 	use 'fedepujol/move.nvim' -- Move lines
 	use 'simrat39/symbols-outline.nvim' -- Tree for symbols
+	use 'folke/neodev.nvim' -- neodev
 	use
 	{
 		"folke/todo-comments.nvim",
@@ -33,7 +35,6 @@ return require('packer').startup(function(use)
 			"SmiteshP/nvim-navic",
 			"nvim-tree/nvim-web-devicons", -- optional dependency
 		},
-		after = "nvim-web-devicons", -- keep this if you're using NvChad
 		config = function()
 			require("barbecue").setup()
 		end,
@@ -46,7 +47,8 @@ return require('packer').startup(function(use)
 			show_current_context = true,
 			show_current_context_start = true,
 			show_end_of_line=true
-		}end
+		}
+		end
 	}
 	use
 	{

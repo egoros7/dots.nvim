@@ -6,7 +6,9 @@ plugins used:
 
 plugin manager [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
 
-theme [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim)
+theme [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim), [projekt0n/github-nvim-theme](https://github.com/projekt0n/github-nvim-theme)
+
+neodev [folke/neodev.nvim](https://github.com/folke/neodev.nvim)
 
 LSP [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 
