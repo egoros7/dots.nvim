@@ -10,6 +10,8 @@ return require('packer').startup(function(use)
 	use 'fedepujol/move.nvim' -- Move lines
 	use 'simrat39/symbols-outline.nvim' -- Tree for symbols
 	use 'folke/neodev.nvim' -- neodev
+	use 'lewis6991/gitsigns.nvim' -- OPTIONAL: for git status
+	use 'romgrk/barbar.nvim'
 	use
 	{
 		"folke/todo-comments.nvim",
