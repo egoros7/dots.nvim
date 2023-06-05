@@ -2,8 +2,8 @@
 require('plugins')
 
 -- Theme --
+require('config.theme.gruvbox')
 vim.o.background = 'dark'
-vim.cmd([[colorscheme gruvbox]])
 
 -- Hotkeys and General Settings --
 require('config.settings')
